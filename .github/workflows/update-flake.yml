@@ -1,8 +1,5 @@
 name: Update flake inputs
 on:
-  schedule:
-    # Update every Sunday and Wednesday
-    - cron: "51 3 * * 0,3"
   workflow_dispatch:
 
 jobs:
